@@ -1,0 +1,54 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 20px;
+    background-color:rgb(44, 117, 253);
+    border-radius: 20px;
+}
+
+.time span{
+    font-size: 100px;
+    color: white;
+}
+
+button{
+    font-size: large;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.display span{
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+    color: red;
+}
